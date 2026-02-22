@@ -7,11 +7,12 @@ My personal emacs doom configuration.
 
 ### Doom
 
-- Clone repo into .config/emacs
-- Symlink .emacs.d/ to .config/emacs:
-  `ln -s ~/.config/emacs/ .emacs.d`
+Follow [doom installation instructions](https://github.com/doomemacs/doomemacs?tab=readme-ov-file#install).
 
-emacs/doom config is in .config/doom (see setup below)
+Symlink .emacs.d/ to .config/emacs:
+`ln -s ~/.config/emacs/ .emacs.d`
+
+Config is in .config/doom (see setup below)
 
 ### OS-Packages
 
@@ -19,7 +20,7 @@ emacs/doom config is in .config/doom (see setup below)
 - fd-find
 - fonts-symbola
 
-Run `doom doctor` and follow instructions.
+Run `doom doctor` and follow instructions (e.g., for nerd icons).
 
 ### This Config
 
@@ -49,12 +50,14 @@ or `SPC h r r` to restart emacs.
 
 ## Commands
 
-- restart emacs: `SPC h r r`
-- open file: `SPC f f`
-- treemacs: `SPC o p`
-- rotate through buffers: `C-x right`
-- select buffer: `SPC b b`
-- magit: `SPC g g` (`Z Z` to commit message)
+| Action | Shortcut |
+|--------|----------|
+| restart emacs | `SPC h r r` |
+| open file | `SPC f f` |
+| treemacs | `SPC o p` |
+| rotate through buffers | `C-x right` |
+| select buffer | `SPC b b` |
+| magit | `SPC g g` (`Z Z` to commit message) |
 
 
 ## Tweaks
