@@ -14,13 +14,22 @@ Symlink .emacs.d/ to .config/emacs:
 
 Config is in .config/doom (see setup below)
 
-### OS-Packages
+### Dependencies
+
+Recommended OS packages:
 
 - ripgrep
 - fd-find
 - fonts-symbola
 
 Run `doom doctor` and follow instructions (e.g., for nerd icons).
+
+Other:
+```bash
+# markdown +grip
+go install github.com/chrishrb/go-grip@latest
+```
+
 
 ### This Config
 
