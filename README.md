@@ -28,6 +28,12 @@ git clone <this-repo>
 ln -s <repo-path> ~/.config/doom
 ```
 
+Run `doom sync` to apply the changes.
+
+### Daemon
+
+To speed-up startup of emacs. Add `emacs --daemon` to autostart.
+
 
 ## Getting-Started
 
