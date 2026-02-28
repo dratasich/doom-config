@@ -67,13 +67,25 @@ or `SPC h r r` to restart emacs.
 | open file | `SPC f f` |
 | treemacs | `SPC o p` |
 | rotate through buffers | `SPC b n` or `C-x right` |
-| select buffer | `SPC b b` |
-| magit | `SPC g g` (`Z Z` to commit message) |
+| show/select from all buffers | `SPC b B` |
 | open vterm | `SPC o t` (popup) or T (here/buffer) |
+
+### Projects
+
+| Action | Shortcut |
+|--------|----------|
 | search in project | `SPC s p` |
+| magit | `SPC g g` (`Z Z` to commit message) |
+| compile/preview | `C-c C-c` |
+
+### Workspace
+
+| Action | Shortcut |
+|--------|----------|
 | new workspace | `SPC TAB n` |
 | rename workspace | `SPC TAB n` |
 | switch workspace | `SPC TAB .` or `ALT <no>` |
+| select buffer (within workspace) | `SPC b b` |
 
 ### Coding
 
@@ -88,10 +100,6 @@ Copilot:
   ```lisp
   (setq copilot-lsp-settings '(:github-enterprise (:uri "https://oebb.ghe.com")))
   ```
-
-## Tweaks
-
-- restart treemacs when switching projects `SPC o p`
 
 
 ## Didn't work / TODO
