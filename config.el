@@ -74,7 +74,10 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; ------------------------------------------
 ;; fish shell tweaks
+;; ------------------------------------------
+;; (proposed by doom doctor)
 ;; posix compliant for internal doom features
 (setq shell-file-name (executable-find "bash"))
 ;; for terminal emulator use fish
@@ -93,7 +96,11 @@
 ;;             (other-window 1))
 ;;           t) ;; append, run after other hooks
 
+;; ------------------------------------------
 ;; centaur-tabs
+;; ------------------------------------------
+;; - visualizes buffers as tabs, like in a web browser
+;; - group buffers by project and major mode
 ;; https://github.com/ema2159/centaur-tabs?tab=readme-ov-file#my-personal-configuration
 (defun centaur-tabs-buffer-groups ()
   "`centaur-tabs-buffer-groups' control buffers' group rules.

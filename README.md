@@ -64,9 +64,14 @@ or `SPC h r r` to restart emacs.
 | restart emacs | `SPC h r r` |
 | open file | `SPC f f` |
 | treemacs | `SPC o p` |
-| rotate through buffers | `C-x right` |
+| rotate through buffers | `SPC b n` or `C-x right` |
 | select buffer | `SPC b b` |
 | magit | `SPC g g` (`Z Z` to commit message) |
+| open vterm | `SPC o t` (popup) or T (here/buffer) |
+| search in project | `SPC s p` |
+| new workspace | `SPC TAB n` |
+| rename workspace | `SPC TAB n` |
+| switch workspace | `SPC TAB .` or `ALT <no>` |
 
 
 ## Tweaks
