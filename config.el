@@ -159,3 +159,12 @@ Other buffer group by `centaur-tabs-get-group-name' with project name."
 ;; use ruff by default for linting
 (with-eval-after-load 'python
   (set-formatter! 'ruff :modes '(python-mode python-ts-mode)))
+
+;; ------------------------------------------
+;; plantuml
+;; ------------------------------------------
+;; https://github.com/skuro/plantuml-mode?tab=readme-ov-file#quick-guide
+;; https://github.com/skuro/plantuml-mode#execution-modes
+;; avoid calling the plantuml server (!)
+(setq plantuml-jar-path "~/.emacs.d/.local/etc/plantuml.jar")
+(setq plantuml-default-exec-mode 'jar)
