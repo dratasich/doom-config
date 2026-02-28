@@ -138,3 +138,24 @@ Other buffer group by `centaur-tabs-get-group-name' with project name."
      "OrgMode")
     (t
      (centaur-tabs-get-group-name (current-buffer))))))
+
+;; ------------------------------------------
+;; GitHub Copilot
+;; ------------------------------------------
+;; https://github.com/copilot-emacs/copilot.el?tab=readme-ov-file#doom-emacs
+;; accept completion from copilot and fallback to company
+(use-package! copilot
+  :hook (prog-mode . copilot-mode)
+  :bind (:map copilot-completion-map
+              ("<tab>" . 'copilot-accept-completion)
+              ("TAB" . 'copilot-accept-completion)
+              ("C-TAB" . 'copilot-accept-completion-by-word)
+              ("C-<tab>" . 'copilot-accept-completion-by-word)))
+
+;; ------------------------------------------
+;; Python
+;; ------------------------------------------
+;;
+;; use ruff by default for linting
+(with-eval-after-load 'python
+  (set-formatter! 'ruff :modes '(python-mode python-ts-mode)))

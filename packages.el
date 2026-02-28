@@ -55,3 +55,8 @@
 
 
 (package! tldr)
+
+;; GitHub Copilot
+;; https://github.com/copilot-emacs/copilot.el?tab=readme-ov-file#doom-emacs
+(package! copilot
+  :recipe (:host github :repo "copilot-emacs/copilot.el" :files ("*.el")))

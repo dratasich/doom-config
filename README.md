@@ -28,6 +28,8 @@ Other:
 ```bash
 # markdown +grip
 go install github.com/chrishrb/go-grip@latest
+# lsp ty for python
+uv tool install ty@latest
 ```
 
 
@@ -73,6 +75,19 @@ or `SPC h r r` to restart emacs.
 | rename workspace | `SPC TAB n` |
 | switch workspace | `SPC TAB .` or `ALT <no>` |
 
+### Coding
+
+| Action | Shortcut |
+|--------|----------|
+| jump to definition | `SPC c d` |
+
+Copilot:
+- `copilot-login`
+- Login to GitHub Enterprise, see [LSP settings](https://github.com/copilot-emacs/copilot.el?tab=readme-ov-file#lsp-settings).
+  Put this into `config.el`:
+  ```lisp
+  (setq copilot-lsp-settings '(:github-enterprise (:uri "https://oebb.ghe.com")))
+  ```
 
 ## Tweaks
 
@@ -82,4 +97,3 @@ or `SPC h r r` to restart emacs.
 ## Didn't work / TODO
 
 - editorconfig
-- eglot
