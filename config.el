@@ -88,13 +88,6 @@
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 
 ;; ;; === IDE-like Layout ===
-;; ;; Open treemacs on startup and return focus to the main window
-;; (add-hook 'window-setup-hook
-;;           (lambda ()
-;;             (require 'treemacs)
-;;             (treemacs)
-;;             (other-window 1))
-;;           t) ;; append, run after other hooks
 
 ;; ------------------------------------------
 ;; centaur-tabs

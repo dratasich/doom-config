@@ -65,7 +65,7 @@ or `SPC h r r` to restart emacs.
 |--------|----------|
 | restart emacs | `SPC h r r` |
 | open file | `SPC f f` |
-| treemacs | `SPC o p` |
+| explorer | `SPC o p` |
 | rotate through buffers | `SPC b n` or `C-x right` |
 | show/select from all buffers | `SPC b B` |
 | open vterm | `SPC o t` (popup) or T (here/buffer) |
@@ -77,6 +77,14 @@ or `SPC h r r` to restart emacs.
 | search in project | `SPC s p` |
 | magit | `SPC g g` (`Z Z` to commit message) |
 | compile/preview | `C-c C-c` |
+
+### Explorer
+
+| Action | Shortcut |
+| open in buffer | `ENT` |
+| create new file | `c` |
+| delete | `D` or `d` to mark for deletion and `x` to delete the files |
+
 
 ### Workspace
 
