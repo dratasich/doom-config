@@ -42,6 +42,10 @@ ln -s <repo-path> ~/.config/doom
 
 Run `doom sync` to apply the changes.
 
+Run in `emacs`:
+
+- `copilot-install-server`
+
 ### Daemon
 
 To speed-up startup of emacs. Add `emacs --daemon` to autostart.
@@ -81,10 +85,12 @@ or `SPC h r r` to restart emacs.
 ### Explorer
 
 | Action | Shortcut |
+| ------ | -------- |
+| help | `?` |
 | open in buffer | `ENT` |
 | create new file | `c` |
+| copy file | `y y` |
 | delete | `D` or `d` to mark for deletion and `x` to delete the files |
-
 
 ### Workspace
 

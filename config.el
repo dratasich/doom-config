@@ -90,6 +90,12 @@
 ;; ;; === IDE-like Layout ===
 
 ;; ------------------------------------------
+;; Explorer
+;; ------------------------------------------
+;; similar to neovim new file ;)
+(map! :map dired-mode-map :n "a" #'dired-create-empty-file)
+
+;; ------------------------------------------
 ;; centaur-tabs
 ;; ------------------------------------------
 ;; - visualizes buffers as tabs, like in a web browser
